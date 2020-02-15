@@ -1,4 +1,5 @@
-<div style="margin: 20px 20px 20px 2px">
+<div style="margin: 50px 50px 50px 50px">
+
   <button onclick="recordVideo()">REC</button>
   <button onclick="stopRecordVideo()">STOP</button>
   <button onclick="download()">Download</button>
@@ -6,13 +7,14 @@
   <button onclick="pauseVideo()">Pause</button>
 
 
-  <div>
-    <video  id="live-video" muted="muted" autoplay controls></video>
+  <div style="padding-top: 50px">
+    <video  id="live-video" muted="muted" playsinline autoplay></video>
   </div>
 
   <div>
-    <video id="stream" autoplay controls></video>
+    <video id="stream" playsinline autoplay controls></video>
   </div>
+
 <div>
 
 <script src="recordrtc.js"></script>
@@ -33,6 +35,8 @@ function captureCamera(callback) {
   });
 }
 
+var recordRTC;
+
 var liveVideo = document.getElementById('live-video');
 var videoStream = document.getElementById("stream");
 
@@ -42,11 +46,14 @@ function recordVideo() {
     liveVideo.muted = true;
     liveVideo.volume = 0;
     liveVideo.srcObject = camera;
-    recordRTC = RecordRTC(camera, {
-      type: 'video',
-      mimeType: 'video/mp4'
-    });
-    recordRTC.startRecording();
+    // recordRTC = RecordRTC(camera, {
+    //   type: 'video',
+    //   recorderType: WhammyRecorder,
+    //   mimeType: 'video/webm\;codecs=vp9'
+    // });
+    recordRTC = new WhammyRecorder(camera);
+    //recordRTC.startRecording();
+    recordRTC.record();
     recordRTC.camera = camera;
   });
 };
@@ -54,16 +61,20 @@ function recordVideo() {
 function stopRecordingCallback() {
   videoStream.muted = false;
   videoStream.volume = 1;
-  videoStream.src = URL.createObjectURL(recordRTC.getBlob());
-  recordRTC.camera.getVideoTracks()[0].stop();
+  videoStream.srcObj = URL.createObjectURL(recordRTC.getBlob());
+  recordRTC.camera.stop();
+  liveVideo.srcObject = null;
 }
 
 function stopRecordVideo() {
-  recordRTC.stopRecording(stopRecordingCallback);
+  //recordRTC.stopRecording(stopRecordingCallback);
+  recordRTC.stop(function(blob) {
+    videoStream.src = URL.createObjectURL(blob);
+  });
 }
 
 function download() {
-  invokeSaveAsDialog(recordRTC.getBlob(),'recording_h264.webm');
+  invokeSaveAsDialog(recordRTC.getBlob(),'recording.webm');
 }
 
 function playVideo() {

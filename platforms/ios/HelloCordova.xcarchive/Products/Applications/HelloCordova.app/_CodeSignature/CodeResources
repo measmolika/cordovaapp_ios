@@ -102,7 +102,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		O0rSJZe/AdxjiqRFWl5uMY/68mc=
+		aFAxDIip3GKcw4mq5Cw9iEGfePs=
 		</data>
 		<key>CDVCapture.bundle/controls_bg.png</key>
 		<data>
@@ -226,11 +226,11 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib</key>
 		<data>
-		HbDYwvqyiFlFBquIRnDQWhxremc=
+		cTATuydC24S5erUCzx4YdfnFWzY=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib</key>
 		<data>
-		oQD/th/aOg5BbCi7wjJTMaoUaEM=
+		I7mquCEjDUxUvPiK93V4gUvJ6u0=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -238,11 +238,11 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib</key>
 		<data>
-		mt37es0ZNlVxYc/0saqD4MmKyw8=
+		JWbu5msLtiKK2pz8884wqCTDKkI=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib</key>
 		<data>
-		8qgpOPkmshWvLAdf8iFe9vcpHcY=
+		WSKpdaUT6Ji31bF2HR8Sf81fwXQ=
 		</data>
 		<key>Frameworks/WebRTC.framework/Info.plist</key>
 		<data>
@@ -250,7 +250,7 @@
 		</data>
 		<key>Frameworks/WebRTC.framework/WebRTC</key>
 		<data>
-		XaqsNGr3I5DeqRFgoPh2K//joyI=
+		6vYd7WPm3Av1dQyUhmTzvVKuMk4=
 		</data>
 		<key>Frameworks/WebRTC.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -258,31 +258,31 @@
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		efRiFJZN5WQEB2NIh9k5MmwzrTY=
+		QFlwiSyuVY2A57El27wTppYV38I=
 		</data>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>
 		<data>
-		L4ueJASXhFFL+6Gs6MmMhJ13L88=
+		SpYihW7U417Zq1wsHm85JSR9tio=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		wjGm5fGkXzusBpHeTO7BriHSyrI=
+		F2hEmSGcKTGdKWJ7isL5rsqKMyM=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		gkk8GGBveJYlGZ92+77kYlPI1vY=
+		ur1Lx73w7uEIBQcVGor80QZglZk=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		qPBLJTI3F7o5DckwVR0YpZMHZ8M=
+		p6FtJPj/L5Va0+/Eojqwtz9K8hs=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		uI8V5y7mZ0ixTotnhdBgp14fm10=
+		2HoY+OH4tXxW7n5wmHs7ncjJLQs=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		vkcPAmq2f2/S8q1dqVmUx6wnSbQ=
+		POQA8xTxssNDkKnyHtnBFTyZgfU=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -362,11 +362,11 @@
 		</data>
 		<key>MainViewController.nib/objects-13.0+.nib</key>
 		<data>
-		i4q2PacOOCIlwd/L+aGBgwcnnAc=
+		TIy2EphNI1yP+jJcc9gGyrsk0Uc=
 		</data>
 		<key>MainViewController.nib/runtime.nib</key>
 		<data>
-		ADJDU4rX7T9Hl5Er+4iNsJLDtWs=
+		bcJsrUy7iPlnWvT6+yXO2PzruGQ=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -410,15 +410,11 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		mHIQRPQn30yC69tSwDgebBqJHlI=
+		vNV8UNurUQIzrmQzktO6UW9lMJ4=
 		</data>
 		<key>www/ios-websocket-hack.min.js</key>
 		<data>
 		Thz14c+UJRYGHr6q9sA0eu4d2Ys=
-		</data>
-		<key>www/movie.mp4</key>
-		<data>
-		yQtEqW7QgMGmyM6IiKQKWqqn58o=
 		</data>
 		<key>www/plugins/cordova-plugin-file/www/DirectoryEntry.js</key>
 		<data>
@@ -819,11 +815,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O0rSJZe/AdxjiqRFWl5uMY/68mc=
+			aFAxDIip3GKcw4mq5Cw9iEGfePs=
 			</data>
 			<key>hash2</key>
 			<data>
-			1cxv7pZTAnwbd52pYlHCquThahoVIDelwgAg373JrUI=
+			l+UmHEwMMqWgFjNmaI0/5yz/dgup9MCY8R+SegPZxDc=
 			</data>
 		</dict>
 		<key>CDVCapture.bundle/controls_bg.png</key>
@@ -1113,22 +1109,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HbDYwvqyiFlFBquIRnDQWhxremc=
+			cTATuydC24S5erUCzx4YdfnFWzY=
 			</data>
 			<key>hash2</key>
 			<data>
-			hR915ADw7WTiY/z9hZ1dtr6/q58qvrkdY3xBLk2KLqo=
+			BjSiHZeDBeWSF5jXe9eWcuHYGsYyZ98aW6wMQz8mx7g=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oQD/th/aOg5BbCi7wjJTMaoUaEM=
+			I7mquCEjDUxUvPiK93V4gUvJ6u0=
 			</data>
 			<key>hash2</key>
 			<data>
-			iFXaugadBUZjmoMi3DBFsEuZx/V3kjwJPetZWOUjCus=
+			ynvEv7r4J4lGti56IWCExxNBPqqD3OO5BOv6y8o4VUM=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1146,22 +1142,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mt37es0ZNlVxYc/0saqD4MmKyw8=
+			JWbu5msLtiKK2pz8884wqCTDKkI=
 			</data>
 			<key>hash2</key>
 			<data>
-			bLeSTk0mXtOkiWZqXExwjsXQm7OQo/wVOO12NuP5eW4=
+			wtU97lpR27L/TWMxdMAYXVBybGu1WIbMkIdX7JzbnLs=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8qgpOPkmshWvLAdf8iFe9vcpHcY=
+			WSKpdaUT6Ji31bF2HR8Sf81fwXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			sdsK+3DrGqdvQJ1jpk8ug5naddoHhqsr071tSDW6FnM=
+			pKHM3h35kS0xK0aQYfLeVVtrAJ0b8BRTP4NNxUSajTg=
 			</data>
 		</dict>
 		<key>Frameworks/WebRTC.framework/Info.plist</key>
@@ -1179,11 +1175,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XaqsNGr3I5DeqRFgoPh2K//joyI=
+			6vYd7WPm3Av1dQyUhmTzvVKuMk4=
 			</data>
 			<key>hash2</key>
 			<data>
-			/e7rV6PJ73z0ZaNTgNQuHEN5YSxo99GM/YqszfJ5Ga0=
+			G/mcogPqCrV6lfEmp3ZVcP1H8Uqa6T+TYQtkekXL7hg=
 			</data>
 		</dict>
 		<key>Frameworks/WebRTC.framework/_CodeSignature/CodeResources</key>
@@ -1201,77 +1197,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			efRiFJZN5WQEB2NIh9k5MmwzrTY=
+			QFlwiSyuVY2A57El27wTppYV38I=
 			</data>
 			<key>hash2</key>
 			<data>
-			/p9vAW0ab8f68nP7KJ480Cu5N0ezbRBz+AR9x31q0BA=
+			dttLzSc8wvoRpDA2o2DKKonCvvQJJsqCSBbU9Np/zqs=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			L4ueJASXhFFL+6Gs6MmMhJ13L88=
+			SpYihW7U417Zq1wsHm85JSR9tio=
 			</data>
 			<key>hash2</key>
 			<data>
-			f4tCU+e9+IFNHzMhZ3I82g6dHANgciVWbA26PjK5xcw=
+			+6Q1GOLnlfz5l32WwZ72olwp96qVfhS3ov254vUHpV4=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wjGm5fGkXzusBpHeTO7BriHSyrI=
+			F2hEmSGcKTGdKWJ7isL5rsqKMyM=
 			</data>
 			<key>hash2</key>
 			<data>
-			mTHt7Kiv9x2236/C2Fr3VetiWN73i8vLDR3XxHb2ioY=
+			d5c5rRX454rmSf0CdjXZNj2aLNkND+PN/Gjbj3/k/gI=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gkk8GGBveJYlGZ92+77kYlPI1vY=
+			ur1Lx73w7uEIBQcVGor80QZglZk=
 			</data>
 			<key>hash2</key>
 			<data>
-			AkAM5sDSMFdQB7LpJngG3WT5IdO+feUm53ozQ/HuyXg=
+			7Fyku2jNKwyt+Qj+mbV7pv1VTyv77yi2pktc8rwsKJo=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qPBLJTI3F7o5DckwVR0YpZMHZ8M=
+			p6FtJPj/L5Va0+/Eojqwtz9K8hs=
 			</data>
 			<key>hash2</key>
 			<data>
-			686ODWVxmHZ9d4eSxTbH7ZycoGaVRl0K6imKFgZBjL0=
+			PSrOHHjYvaBKs94osahU7YXxHbBA9JwB86+zLDVfdMY=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uI8V5y7mZ0ixTotnhdBgp14fm10=
+			2HoY+OH4tXxW7n5wmHs7ncjJLQs=
 			</data>
 			<key>hash2</key>
 			<data>
-			rhjoxeu/ifSOl1rxi1OpXasw+q1Xk8GTXkUHlEQDKI8=
+			A1doIvTgIKzdmDrH+zNv/AuZ6lgDhD+FSugV8/Jz0w8=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vkcPAmq2f2/S8q1dqVmUx6wnSbQ=
+			POQA8xTxssNDkKnyHtnBFTyZgfU=
 			</data>
 			<key>hash2</key>
 			<data>
-			egQvAn9CYtP+KC5RTjHhds1zg66vgURkcHxiuGOw1Y8=
+			cV5zDFPBfX0XjlTCywfCeYfMWIssnRe4isY5UtWKw8s=
 			</data>
 		</dict>
 		<key>LaunchImage-1100-Landscape-2436h@3x.png</key>
@@ -1476,22 +1472,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i4q2PacOOCIlwd/L+aGBgwcnnAc=
+			TIy2EphNI1yP+jJcc9gGyrsk0Uc=
 			</data>
 			<key>hash2</key>
 			<data>
-			YO9vyJsVaHuNGHh6s5uG0iyi7jiLGvZRjcqBRurJ9ws=
+			5V7TfCypQDZMaEAJxPtXOXQqRfaWaV0Q6okbsOecKdE=
 			</data>
 		</dict>
 		<key>MainViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ADJDU4rX7T9Hl5Er+4iNsJLDtWs=
+			bcJsrUy7iPlnWvT6+yXO2PzruGQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			1OBgGM2aO3eQnGxGUVz/K+g9RGUbEdmdjTM57G2IrAY=
+			8iyKVQy5p0joxOuG2A/WHvL55TKki5Qu74ipXzGDI2U=
 			</data>
 		</dict>
 		<key>config.xml</key>
@@ -1597,11 +1593,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mHIQRPQn30yC69tSwDgebBqJHlI=
+			vNV8UNurUQIzrmQzktO6UW9lMJ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			iHo/R8efT2Kx1VOImPKg8MEQgnjpSie/VqSJhdmg+eg=
+			a6Xk1bBXC9Gm2wF3nDDGnPH2MMW7I9yZQz/TF0T9iek=
 			</data>
 		</dict>
 		<key>www/ios-websocket-hack.min.js</key>
@@ -1613,17 +1609,6 @@
 			<key>hash2</key>
 			<data>
 			E3SxodxzGDOcTPnHhs7S2w5UayNvbTdqVb/Z8H9MxFA=
-			</data>
-		</dict>
-		<key>www/movie.mp4</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yQtEqW7QgMGmyM6IiKQKWqqn58o=
-			</data>
-			<key>hash2</key>
-			<data>
-			FNWfDUcRh2dkOdZd447LX2LFWX49wOfGhYSbPGxS2ic=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-file/www/DirectoryEntry.js</key>
