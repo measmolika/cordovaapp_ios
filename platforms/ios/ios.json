@@ -9,6 +9,10 @@
         "parents": {
           "NSCameraUsageDescription": [
             {
+              "xml": "<string>Backgroundvideo cordova plugin</string>",
+              "count": 1
+            },
+            {
               "xml": "<string>need camera access to take pictures</string>",
               "count": 1,
               "mode": "merge",
@@ -32,11 +36,11 @@
         "parents": {
           "/*": [
             {
-              "xml": "<feature name=\"backgroundvideo\"><param name=\"ios-package\" value=\"backgroundvideo\" /></feature>",
+              "xml": "<feature name=\"FileOpener2\"><param name=\"ios-package\" value=\"FileOpener2\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<feature name=\"FileOpener2\"><param name=\"ios-package\" value=\"FileOpener2\" /></feature>",
+              "xml": "<feature name=\"backgroundvideo\"><param name=\"ios-package\" value=\"backgroundvideo\" /></feature>",
               "count": 1
             }
           ]
@@ -45,25 +49,17 @@
     }
   },
   "installed_plugins": {
+    "cordova-plugin-file-opener2": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
     "cordova-background-video": {
       "CAMERA_USAGE_DESCRIPTION": "Use for video messages",
       "MICROPHONE_USAGE_DESCRIPTION": " ",
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-    },
-    "cordova-plugin-file-opener2": {
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     }
   },
   "dependent_plugins": {},
   "modules": [
-    {
-      "id": "cordova-background-video.backgroundvideo",
-      "file": "plugins/cordova-background-video/www/backgroundvideo.js",
-      "pluginId": "cordova-background-video",
-      "clobbers": [
-        "cordova.plugins.backgroundvideo"
-      ]
-    },
     {
       "id": "cordova-plugin-file-opener2.FileOpener2",
       "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
@@ -71,10 +67,18 @@
       "clobbers": [
         "cordova.plugins.fileOpener2"
       ]
+    },
+    {
+      "id": "cordova-background-video.backgroundvideo",
+      "file": "plugins/cordova-background-video/www/backgroundvideo.js",
+      "pluginId": "cordova-background-video",
+      "clobbers": [
+        "cordova.plugins.backgroundvideo"
+      ]
     }
   ],
   "plugin_metadata": {
-    "cordova-background-video": "1.0.21",
-    "cordova-plugin-file-opener2": "3.0.0"
+    "cordova-plugin-file-opener2": "3.0.0",
+    "cordova-background-video": "1.0.21"
   }
 }

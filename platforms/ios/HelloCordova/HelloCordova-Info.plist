@@ -52,9 +52,9 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>Use for video and audio messages</key>
-	<string>Backgroundvideo cordova plugin</string>
 	<key>NSCameraUsageDescription</key>
 	<string>need camera access to take pictures</string>
+	<key>Use for video and audio messages</key>
+	<string>Backgroundvideo cordova plugin</string>
 </dict>
 </plist>

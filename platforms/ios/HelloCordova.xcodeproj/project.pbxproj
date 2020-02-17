@@ -14,10 +14,10 @@
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		5B37FDFD7DC04A6C81009FFA /* backgroundvideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 90543FF0EA3D411B8BF73B26 /* backgroundvideo.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		BB80B6D34EBF432B9B2DFB53 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF63061E2A2427289809B54 /* MediaPlayer.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E850C13423F755CF00A3C6C0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BDD08823F6EAA900C21B87 /* WebKit.framework */; };
+		31FC06EC7C214E95A57DAC88 /* backgroundvideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 966958D51B2D48AE84C63896 /* backgroundvideo.m */; };
+		E6D0E6C125664156A3C2F068 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA57C2568A654690BEC7DE46 /* MediaPlayer.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,17 +74,17 @@
 		32CA4F630368D1EE00C91783 /* HelloCordova-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HelloCordova-Prefix.pch"; sourceTree = "<group>"; };
 		62BFDBBFC0624B78B3885D01 /* FileOpener2.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = FileOpener2.m; path = "cordova-plugin-file-opener2/FileOpener2.m"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = HelloCordova/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		713F39B9010546ACBED065BE /* backgroundvideo.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = backgroundvideo.h; path = "cordova-background-video/backgroundvideo.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelloCordova-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "HelloCordova-Info.plist"; path = "HelloCordova/HelloCordova-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		90543FF0EA3D411B8BF73B26 /* backgroundvideo.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = backgroundvideo.m; path = "cordova-background-video/backgroundvideo.m"; sourceTree = "<group>"; };
 		9E602089362144D3BF143187 /* FileOpener2.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = FileOpener2.h; path = "cordova-plugin-file-opener2/FileOpener2.h"; sourceTree = "<group>"; };
-		CBF63061E2A2427289809B54 /* MediaPlayer.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		E83A8D9923F84ABB008E5B62 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = "../../plugins/cordova-plugin-iosrtc/lib/WebRTC.framework"; sourceTree = "<group>"; };
 		E8BDD08823F6EAA900C21B87 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = HelloCordova/config.xml; sourceTree = "<group>"; };
+		966958D51B2D48AE84C63896 /* backgroundvideo.m */ = {isa = PBXFileReference; name = "backgroundvideo.m"; path = "cordova-background-video/backgroundvideo.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		12E351FD49604078AE8047A6 /* backgroundvideo.h */ = {isa = PBXFileReference; name = "backgroundvideo.h"; path = "cordova-background-video/backgroundvideo.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		DA57C2568A654690BEC7DE46 /* MediaPlayer.framework */ = {isa = PBXFileReference; name = "MediaPlayer.framework"; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				E850C13423F755CF00A3C6C0 /* WebKit.framework in Frameworks */,
-				BB80B6D34EBF432B9B2DFB53 /* MediaPlayer.framework in Frameworks */,
+				E6D0E6C125664156A3C2F068 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +167,7 @@
 			children = (
 				E83A8D9923F84ABB008E5B62 /* WebRTC.framework */,
 				E8BDD08823F6EAA900C21B87 /* WebKit.framework */,
-				CBF63061E2A2427289809B54 /* MediaPlayer.framework */,
+				DA57C2568A654690BEC7DE46 /* MediaPlayer.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -194,10 +194,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				90543FF0EA3D411B8BF73B26 /* backgroundvideo.m */,
-				713F39B9010546ACBED065BE /* backgroundvideo.h */,
 				62BFDBBFC0624B78B3885D01 /* FileOpener2.m */,
 				9E602089362144D3BF143187 /* FileOpener2.h */,
+				966958D51B2D48AE84C63896 /* backgroundvideo.m */,
+				12E351FD49604078AE8047A6 /* backgroundvideo.h */,
 			);
 			name = Plugins;
 			path = HelloCordova/Plugins;
@@ -329,8 +329,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				5B37FDFD7DC04A6C81009FFA /* backgroundvideo.m in Sources */,
 				1FD41476D6B443068B993852 /* FileOpener2.m in Sources */,
+				31FC06EC7C214E95A57DAC88 /* backgroundvideo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

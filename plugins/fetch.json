@@ -7,18 +7,18 @@
     "is_top_level": false,
     "variables": {}
   },
-  "cordova-background-video": {
-    "source": {
-      "type": "registry",
-      "id": "https://github.com/Neos21/cordova-background-video.git"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-file-opener2": {
     "source": {
       "type": "registry",
       "id": "cordova-plugin-file-opener2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-background-video": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/ttambet/cordova-background-video.git"
     },
     "is_top_level": true,
     "variables": {}
