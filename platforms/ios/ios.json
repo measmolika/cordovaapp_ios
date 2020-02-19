@@ -9,10 +9,6 @@
         "parents": {
           "NSCameraUsageDescription": [
             {
-              "xml": "<string>Backgroundvideo cordova plugin</string>",
-              "count": 1
-            },
-            {
               "xml": "<string>need camera access to take pictures</string>",
               "count": 1,
               "mode": "merge",

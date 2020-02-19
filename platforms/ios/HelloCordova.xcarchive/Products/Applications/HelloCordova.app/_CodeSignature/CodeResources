@@ -102,15 +102,15 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		629Tvg355hXtXAFmfku5gYvng4E=
+		XXWT6Fik9DJjMDvEd/NB7nBvJls=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib</key>
 		<data>
-		T1VOqB6jK1FbFrn1VefmWISwahQ=
+		dcvijkhSGi4WWTtnxvlKKLYIQ6Y=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib</key>
 		<data>
-		t1OlXS1X+u1cs60hfvXpDqpYoNE=
+		wHbC3bjeJKKCqAsSl5VnkT1Q//0=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib</key>
 		<data>
-		ZvBM0NeeGbDLxqlwCs6E0pPs42E=
+		daQoOgDm7L1frXIaICWtiLvdaMo=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib</key>
 		<data>
-		hF+sUPNWy0cwaCcMA1bHw6EekiI=
+		MN1U+Q8kVfL2K0YnIn6g0Fq/E90=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -202,11 +202,11 @@
 		</data>
 		<key>MainViewController.nib/objects-13.0+.nib</key>
 		<data>
-		wyk81g+YYeRcAAazZ+DhgmoqMfA=
+		nTayEtFjDEXGGuU2oUTtFAu5NqY=
 		</data>
 		<key>MainViewController.nib/runtime.nib</key>
 		<data>
-		tjEvvBRYML7fRFTvlM3o7ylBbR4=
+		WCMG/pTGtP9s+0T5h65eZUlAg4M=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		ue0FU/5xAhPGac7HJRykqC96GeM=
+		V5vTGD9FTq/uWwLuC+25pvATB3U=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>www/config.xml</key>
 		<data>
-		mBd/UO14nUj5biN3FIeKxGFyniE=
+		VzPV0uq3HbzhgW4S5fxkty7W+/g=
 		</data>
 		<key>www/cordova-js-src/exec.js</key>
 		<data>
@@ -250,7 +250,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		FWOOenf7cfiMstqjeAEIG8esPzw=
+		mH+bxEW55OmnWQH/cqMmGR94V2E=
 		</data>
 		<key>www/plugins/cordova-background-video/www/backgroundvideo.js</key>
 		<data>
@@ -547,33 +547,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			629Tvg355hXtXAFmfku5gYvng4E=
+			XXWT6Fik9DJjMDvEd/NB7nBvJls=
 			</data>
 			<key>hash2</key>
 			<data>
-			3C0T4NWFU4C8/YrCFDAUDFkHwG7FOwlVWMIM38kvkKc=
+			YN2Ndsgfve23tPRMKXqUJdgPkquypKEwCsbnLh6rUDQ=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T1VOqB6jK1FbFrn1VefmWISwahQ=
+			dcvijkhSGi4WWTtnxvlKKLYIQ6Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			CmmapGHDTy/aEUnDo3SsQnns1lEoSUMwKbqvYM11hxM=
+			nHuVhvQ+gpuA+I8HMzXX5nL9wEsGG7h0pxTBRU0bt28=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t1OlXS1X+u1cs60hfvXpDqpYoNE=
+			wHbC3bjeJKKCqAsSl5VnkT1Q//0=
 			</data>
 			<key>hash2</key>
 			<data>
-			CbDpji65cwAeyYkXMIm5gXrniQ7Cv2Q+bJFP108tC+Y=
+			KZQPkmCahk+hqsRxcOIb9MatntQXck9qNK/fStKbqLk=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -591,22 +591,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZvBM0NeeGbDLxqlwCs6E0pPs42E=
+			daQoOgDm7L1frXIaICWtiLvdaMo=
 			</data>
 			<key>hash2</key>
 			<data>
-			2DYSZaWiAMCRJ2ZWvOBYCT00RgL27d/0/yvFSZJZMYo=
+			WGtZ8hDQE3zcZ/VrvTLL7TQqKPoqe8rHnGr8CfbyI4E=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hF+sUPNWy0cwaCcMA1bHw6EekiI=
+			MN1U+Q8kVfL2K0YnIn6g0Fq/E90=
 			</data>
 			<key>hash2</key>
 			<data>
-			QwlLlzWpMb/GXVBlUp1BtbRvtWmYXr7Bt0rRdNq4K8A=
+			0Za/kr3ujSLaSbqpMr3hFTdCluQscy2ZkN8iJzBYdCU=
 			</data>
 		</dict>
 		<key>LaunchImage-1100-Landscape-2436h@3x.png</key>
@@ -811,33 +811,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wyk81g+YYeRcAAazZ+DhgmoqMfA=
+			nTayEtFjDEXGGuU2oUTtFAu5NqY=
 			</data>
 			<key>hash2</key>
 			<data>
-			GZO42hrFqZC0W/fwqCqBx042j/S5ENZGKSlDF0vDGEQ=
+			2/bgMHJTR+loxCR3+ysg3Ip22tKujgSHEsCwrb4FT4g=
 			</data>
 		</dict>
 		<key>MainViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tjEvvBRYML7fRFTvlM3o7ylBbR4=
+			WCMG/pTGtP9s+0T5h65eZUlAg4M=
 			</data>
 			<key>hash2</key>
 			<data>
-			y3w7oNFOWBvhM6oiL5FBEDQXYMdPG2zM/4mmTwm/AUw=
+			BbxJz03kkyv66+IK6OQyUiX3pJby0t800euruN0b9Rg=
 			</data>
 		</dict>
 		<key>config.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ue0FU/5xAhPGac7HJRykqC96GeM=
+			V5vTGD9FTq/uWwLuC+25pvATB3U=
 			</data>
 			<key>hash2</key>
 			<data>
-			41RaDwbYR8P5BUhMZhtGoczrYGSqzFwjlaDzte5g408=
+			d6rtNMTDEt41F2SWL0fCguRhdNolgbNpbiWWG6pvnl8=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -855,11 +855,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mBd/UO14nUj5biN3FIeKxGFyniE=
+			VzPV0uq3HbzhgW4S5fxkty7W+/g=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ng4zObOShTW9i7OFqn/X+m8NLKVrBlvkGUweq61p0Io=
+			FP7Rc5lPB9u/IPDBqT4xEzM25xRyTbXv1Wdsspecbmk=
 			</data>
 		</dict>
 		<key>www/cordova-js-src/exec.js</key>
@@ -932,11 +932,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FWOOenf7cfiMstqjeAEIG8esPzw=
+			mH+bxEW55OmnWQH/cqMmGR94V2E=
 			</data>
 			<key>hash2</key>
 			<data>
-			xEy5bXATby1qVlugO3pBNMTxSA2gjgAVHKS0kO8VUgQ=
+			zeEoEs0RcaQ8WbTwiMunXLI5fkVefZ/z2DlpSpQ4DAc=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-background-video/www/backgroundvideo.js</key>

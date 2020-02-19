@@ -17,4 +17,5 @@
         <string>need camera access to take pictures</string>
     </edit-config>
     <preference name="webviewbounce" value="true" />
+    <preference name="AllowInlineMediaPlayback" value="true"/>
 </widget>

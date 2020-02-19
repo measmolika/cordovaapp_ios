@@ -37,7 +37,7 @@
     <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
         <string>need camera access to take pictures</string>
     </edit-config>
-    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
     <preference name="EnableViewportScale" value="false" />
