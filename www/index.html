@@ -12,6 +12,10 @@
     <source id="source" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+  <video controls playsinline webkit-playsinline id="liveVideo">
+    <source id="source" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
 <script src="cordova.js"></script>
 <script type="text/javascript">
@@ -25,33 +29,11 @@ function recordVideo() {
 };
 function stopRecordVideo() {
   cordova.plugins.backgroundvideo.stop(function(data) {
-    // var streamVideo = document.getElementById("streamVideo");
-
     var video = document.getElementById("streamVideo"),
     source = document.getElementById("source");
-
     source.src = "file://" + data;
-    source.type = "video/mp4";
-    // video.load();
-    //video.play()
-    // streamVideo.load();
-
-
-
     console.log(data);
-  //   console.log('stop success', data);
-  //   cordova.plugins.fileOpener2.open(data, 'video/mp4', {
-  //     error: function error(err) {
-  //       console.error('failed to open file', err);
-  //     },
-  //     success: function success() {
-  //       console.log("success with opening the file");
-  //     }
-  //   });
-  // }, function(err) {
-  //   console.log('stop error', err);
    });
-
 }
 function download() {}
 </script>
