@@ -25,33 +25,31 @@ function recordVideo() {
 };
 function stopRecordVideo() {
   cordova.plugins.backgroundvideo.stop(function(data) {
-    // var streamVideo = document.getElementById("streamVideo");
-
     var video = document.getElementById("streamVideo"),
     source = document.getElementById("source");
-
     source.src = "file://" + data;
-    source.type = "video/mp4";
-    // video.load();
-    //video.play()
-    // streamVideo.load();
-
-
-
     console.log(data);
-  //   console.log('stop success', data);
-  //   cordova.plugins.fileOpener2.open(data, 'video/mp4', {
-  //     error: function error(err) {
-  //       console.error('failed to open file', err);
-  //     },
-  //     success: function success() {
-  //       console.log("success with opening the file");
-  //     }
-  //   });
-  // }, function(err) {
-  //   console.log('stop error', err);
+    window.resolveLocalFileSystemURL("file://" + data, function (fileEntry) {
+      console.log("fileEntry", fileEntry);
+      fileEntry.file(function (file) {
+        console.log("File", file)
+        var reader = new FileReader();
+        reader.onloadend = function() {
+          // Create a blob based on the FileReader "result", which we asked to be retrieved as an ArrayBuffer
+          var blob = new Blob([new Uint8Array(this.result)], { type: "image/png" });
+          var oReq = new XMLHttpRequest();
+          oReq.open("POST", "http://localhost:8080/upload_handler", true);
+          oReq.onload = function (oEvent) {
+          // all done!
+        };
+        // Pass the blob in to XHR's send method
+        oReq.send(blob);
+      };
+      // Read the file as an ArrayBuffer
+      reader.readAsArrayBuffer(file);
+      }, function (err) { console.error('error getting fileEntry file!' + err); });
+    }, function (err) { console.error('error getting persistent fs! ' + err); });
    });
-
 }
 function download() {}
 </script>

@@ -18,4 +18,5 @@
     </edit-config>
     <preference name="webviewbounce" value="true" />
     <preference name="AllowInlineMediaPlayback" value="true"/>
+    <preference name="iosPersistentFileLocation" value="library" />
 </widget>

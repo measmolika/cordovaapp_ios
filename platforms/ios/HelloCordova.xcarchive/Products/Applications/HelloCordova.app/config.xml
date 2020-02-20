@@ -25,6 +25,10 @@
     <feature name="backgroundvideo">
         <param name="ios-package" value="backgroundvideo" />
     </feature>
+    <feature name="File">
+        <param name="ios-package" value="CDVFile" />
+        <param name="onload" value="true" />
+    </feature>
     <name>HelloCordova</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -52,4 +56,5 @@
     <preference name="PaginationMode" value="unpaginated" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
+    <preference name="iosPersistentFileLocation" value="library" />
 </widget>

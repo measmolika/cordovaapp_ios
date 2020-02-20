@@ -12,10 +12,6 @@
     <source id="source" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <video controls playsinline webkit-playsinline id="liveVideo">
-    <source id="source" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
 </div>
 <script src="cordova.js"></script>
 <script type="text/javascript">
@@ -33,6 +29,26 @@ function stopRecordVideo() {
     source = document.getElementById("source");
     source.src = "file://" + data;
     console.log(data);
+    window.resolveLocalFileSystemURL("file://" + data, function (fileEntry) {
+      console.log("fileEntry", fileEntry);
+      fileEntry.file(function (file) {
+        console.log("File", file)
+        var reader = new FileReader();
+        reader.onloadend = function() {
+          // Create a blob based on the FileReader "result", which we asked to be retrieved as an ArrayBuffer
+          var blob = new Blob([new Uint8Array(this.result)], { type: "video/mp4" });
+          var oReq = new XMLHttpRequest();
+          oReq.open("POST", "http://localhost:8080/upload_handler", true);
+          oReq.onload = function (oEvent) {
+            // all done!
+          };
+          // Pass the blob in to XHR's send method
+          oReq.send(blob);
+        };
+        // Read the file as an ArrayBuffer
+        reader.readAsArrayBuffer(file);
+      }, function (err) { console.error('error getting fileEntry file!' + err); });
+    }, function (err) { console.error('error getting persistent fs! ' + err); });
    });
 }
 function download() {}
