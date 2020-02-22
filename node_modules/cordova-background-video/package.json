@@ -1,0 +1,59 @@
+{
+  "_from": "git+https://github.com/ttambet/cordova-background-video.git",
+  "_id": "cordova-background-video@1.0.21",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-background-video",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/ttambet/cordova-background-video.git",
+    "rawSpec": "https://github.com/ttambet/cordova-background-video.git",
+    "saveSpec": "git+https://github.com/ttambet/cordova-background-video.git",
+    "fetchSpec": "https://github.com/ttambet/cordova-background-video.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ttambet/cordova-background-video.git#3f570ad1bc7393580a9bd2f39327640db8b83990",
+  "_spec": "https://github.com/ttambet/cordova-background-video.git",
+  "_where": "/Users/margusniitsoo/Downloads/cordovaapp_ios",
+  "author": {
+    "name": "Neo",
+    "email": "neos21@gmail.com",
+    "url": "http://neo.s21.xrea.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/cordova-background-video/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-background-video",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "A simple Cordova/Phonegap plugin to capture video and preview background affecting app functionality.",
+  "homepage": "https://github.com/Neos21/cordova-background-video#readme",
+  "keywords": [
+    "video",
+    "background",
+    "transparent",
+    "recording",
+    "camera",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "GPL",
+  "main": "www/backgroundvideo.js",
+  "name": "cordova-background-video",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/cordova-background-video.git"
+  },
+  "version": "1.0.21"
+}

@@ -7,23 +7,14 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-ios-camera-permissions": {
-      "CAMERA_USAGE_DESCRIPTION": "This app needs camera access",
-      "MICROPHONE_USAGE_DESCRIPTION": "This app needs microphone access",
-      "PHOTOLIBRARY_ADD_USAGE_DESCRIPTION": "This app needs write-access to photo library",
-      "PHOTOLIBRARY_USAGE_DESCRIPTION": "This app needs read/write-access photo library access",
+    "cordova-background-video": {
+      "CAMERA_USAGE_DESCRIPTION": "Use for video messages",
+      "MICROPHONE_USAGE_DESCRIPTION": " ",
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     },
-    "cordova-plugin-media-capture": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-    },
-    "cordova-plugin-iosrtc": {
+    "cordova-plugin-file-opener2": {
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     }
   },
-  "dependent_plugins": {
-    "cordova-plugin-file": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-    }
-  }
+  "dependent_plugins": {}
 }

@@ -37,10 +37,6 @@
 	<string/>
 	<key>NSMainNibFile~ipad</key>
 	<string/>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>This app needs write-access to photo library</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This app needs read/write-access photo library access</string>
 	<key>UIRequiresFullScreen</key>
 	<true/>
 	<key>UISupportedInterfaceOrientations</key>
@@ -56,13 +52,9 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSContactsUsageDescription</key>
-	<string>This Application needs access to your contacts in order to be able to call them.</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>This Application uses your microphone to make calls.</string>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>This Application uses your wireless headphones and microphone to make calls.</string>
 	<key>NSCameraUsageDescription</key>
 	<string>need camera access to take pictures</string>
+	<key>Use for video and audio messages</key>
+	<string>Backgroundvideo cordova plugin</string>
 </dict>
 </plist>
