@@ -2,87 +2,46 @@
 
   <button onclick="recordVideo()">REC</button>
   <button onclick="stopRecordVideo()">STOP</button>
-  <button onclick="download()">Download</button>
-  <button onclick="playVideo()">Play</button>
-  <button onclick="pauseVideo()">Pause</button>
-
 
   <div style="padding-top: 50px">
     <video  id="live-video" muted="muted" playsinline autoplay></video>
+    <video controls playsinline webkit-playsinline id="streamVideo">
+      <source id="source" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
-
-  <div>
-    <video id="stream" playsinline autoplay controls></video>
-  </div>
-
 <div>
 
-<script src="recordrtc.js"></script>
 <script src="cordova.js"></script>
-<script src="ios-websocket-hack.min.js"></script>
 <script type="text/javascript">
 
-function captureCamera(callback) {
-
-  if(cordova.plugins.iosrtc)
-    cordova.plugins.iosrtc.registerGlobals();
-
-  navigator.mediaDevices.getUserMedia({ audio: true, video: true })
-  .then(function(camera) {
-    callback(camera);
-  }).catch(function(error) {
-    console.log(error);
-  });
-}
-
-var recordRTC;
-
 var liveVideo = document.getElementById('live-video');
-var videoStream = document.getElementById("stream");
-
 
 function recordVideo() {
-  captureCamera(function(camera) {
-    liveVideo.muted = true;
-    liveVideo.volume = 0;
-    liveVideo.srcObject = camera;
-    // recordRTC = RecordRTC(camera, {
-    //   type: 'video',
-    //   recorderType: WhammyRecorder,
-    //   mimeType: 'video/webm\;codecs=vp9'
-    // });
-    recordRTC = new WhammyRecorder(camera);
-    //recordRTC.startRecording();
-    recordRTC.record();
-    recordRTC.camera = camera;
+  var cam_choice = 'front';
+  cordova.plugins.backgroundvideo.start('myvideo', cam_choice, function() {
+    console.log('start success');
+  }, function(err) {
+    console.log('start error', err);
   });
 };
 
-function stopRecordingCallback() {
-  videoStream.muted = false;
-  videoStream.volume = 1;
-  videoStream.srcObj = URL.createObjectURL(recordRTC.getBlob());
-  recordRTC.camera.stop();
-  liveVideo.srcObject = null;
-}
-
 function stopRecordVideo() {
-  //recordRTC.stopRecording(stopRecordingCallback);
-  recordRTC.stop(function(blob) {
-    videoStream.src = URL.createObjectURL(blob);
+  cordova.plugins.backgroundvideo.stop(function(data) {
+    console.log('stop success', data);
+    cordova.plugins.fileOpener2.open(data, 'video/mp4', {
+      error: function error(err) {
+        console.error('failed to open file', err);
+      },
+      success: function success() {
+        console.log("success with opening the file");
+      }
+    });
+  }, function(err) {
+    console.log('stop error', err);
   });
 }
 
-function download() {
-  invokeSaveAsDialog(recordRTC.getBlob(),'recording.webm');
-}
 
-function playVideo() {
-  videoStream.play();
-}
-
-function pauseVideo() {
-  videoStream.pause();
-}
 
 </script>

@@ -1,6 +1,14 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
   module.exports = [
     {
+      "id": "cordova-background-video.backgroundvideo",
+      "file": "plugins/cordova-background-video/www/backgroundvideo.js",
+      "pluginId": "cordova-background-video",
+      "clobbers": [
+        "cordova.plugins.backgroundvideo"
+      ]
+    },
+    {
       "id": "cordova-plugin-file.DirectoryEntry",
       "file": "plugins/cordova-plugin-file/www/DirectoryEntry.js",
       "pluginId": "cordova-plugin-file",
@@ -174,80 +182,17 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "runs": true
     },
     {
-      "id": "cordova-plugin-media-capture.CaptureAudioOptions",
-      "file": "plugins/cordova-plugin-media-capture/www/CaptureAudioOptions.js",
-      "pluginId": "cordova-plugin-media-capture",
+      "id": "cordova-plugin-file-opener2.FileOpener2",
+      "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
+      "pluginId": "cordova-plugin-file-opener2",
       "clobbers": [
-        "CaptureAudioOptions"
-      ]
-    },
-    {
-      "id": "cordova-plugin-media-capture.CaptureImageOptions",
-      "file": "plugins/cordova-plugin-media-capture/www/CaptureImageOptions.js",
-      "pluginId": "cordova-plugin-media-capture",
-      "clobbers": [
-        "CaptureImageOptions"
-      ]
-    },
-    {
-      "id": "cordova-plugin-media-capture.CaptureVideoOptions",
-      "file": "plugins/cordova-plugin-media-capture/www/CaptureVideoOptions.js",
-      "pluginId": "cordova-plugin-media-capture",
-      "clobbers": [
-        "CaptureVideoOptions"
-      ]
-    },
-    {
-      "id": "cordova-plugin-media-capture.CaptureError",
-      "file": "plugins/cordova-plugin-media-capture/www/CaptureError.js",
-      "pluginId": "cordova-plugin-media-capture",
-      "clobbers": [
-        "CaptureError"
-      ]
-    },
-    {
-      "id": "cordova-plugin-media-capture.MediaFileData",
-      "file": "plugins/cordova-plugin-media-capture/www/MediaFileData.js",
-      "pluginId": "cordova-plugin-media-capture",
-      "clobbers": [
-        "MediaFileData"
-      ]
-    },
-    {
-      "id": "cordova-plugin-media-capture.MediaFile",
-      "file": "plugins/cordova-plugin-media-capture/www/MediaFile.js",
-      "pluginId": "cordova-plugin-media-capture",
-      "clobbers": [
-        "MediaFile"
-      ]
-    },
-    {
-      "id": "cordova-plugin-media-capture.helpers",
-      "file": "plugins/cordova-plugin-media-capture/www/helpers.js",
-      "pluginId": "cordova-plugin-media-capture",
-      "runs": true
-    },
-    {
-      "id": "cordova-plugin-media-capture.capture",
-      "file": "plugins/cordova-plugin-media-capture/www/capture.js",
-      "pluginId": "cordova-plugin-media-capture",
-      "clobbers": [
-        "navigator.device.capture"
-      ]
-    },
-    {
-      "id": "cordova-plugin-iosrtc.Plugin",
-      "file": "plugins/cordova-plugin-iosrtc/dist/cordova-plugin-iosrtc.js",
-      "pluginId": "cordova-plugin-iosrtc",
-      "clobbers": [
-        "cordova.plugins.iosrtc"
+        "cordova.plugins.fileOpener2"
       ]
     }
   ];
   module.exports.metadata = {
+    "cordova-background-video": "1.0.21",
     "cordova-plugin-file": "6.0.2",
-    "cordova-plugin-ios-camera-permissions": "1.2.0",
-    "cordova-plugin-media-capture": "3.0.3",
-    "cordova-plugin-iosrtc": "6.0.6"
+    "cordova-plugin-file-opener2": "3.0.0"
   };
 });

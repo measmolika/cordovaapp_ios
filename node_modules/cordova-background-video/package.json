@@ -17,9 +17,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/ttambet/cordova-background-video.git#3f570ad1bc7393580a9bd2f39327640db8b83990",
+  "_resolved": "git+https://github.com/ttambet/cordova-background-video.git#5a88db1b8498cef1c952564e4a926458075dbd8c",
   "_spec": "https://github.com/ttambet/cordova-background-video.git",
-  "_where": "/Users/margusniitsoo/Downloads/cordovaapp_ios",
+  "_where": "/Users/i/cordovaapp_ios",
   "author": {
     "name": "Neo",
     "email": "neos21@gmail.com",
